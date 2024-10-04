@@ -9,6 +9,7 @@ namespace KeyServer
 {
     class HttpServer
     {
+        //DISCLAIMER: This code was partially written by ChatGPT, and has been thoroughly tested and examined.
         private HttpListener _listener;
 
         public HttpServer(string[] prefixes)
@@ -48,6 +49,9 @@ namespace KeyServer
             if (path == "/api/hello" && request.HttpMethod == "GET")
             {
                 responseText = "Hi! KeyServer is online!";
+            } else if (path == "/api/public/stats")
+            {
+                responseText = HTMLPage.StatsPage();
             }
             else
             {

@@ -9,6 +9,14 @@ namespace KeyServer
     {
         static void Main(string[] args)
         {
+            string[] prefixes = { "http://localhost:8080/" };
+            var server = new HttpServer(prefixes);
+            server.Start();
+
+            Console.WriteLine("Press enter to KeyServer...");
+            Console.ReadKey();
+            server.Stop();
+            Environment.Exit(0);
         }
     }
 }

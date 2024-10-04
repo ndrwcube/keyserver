@@ -1,0 +1,7 @@
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.exe.config
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.exe
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.pdb
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.csproj.AssemblyReference.cache
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.csproj.CoreCompileInputs.cache
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.exe
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.pdb
