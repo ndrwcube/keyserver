@@ -10,7 +10,7 @@ namespace KeyServer
     {
         public static string StatsPage()
         {
-            return @"<!DOCTYPE HTML><html><body><h1>keyserver</h1></body></html>";
+            return @"<!DOCTYPE HTML><html><body><h1>KeyServer</h1></body></html>";
         }
     }
 }

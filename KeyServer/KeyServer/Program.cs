@@ -13,7 +13,7 @@ namespace KeyServer
             var server = new HttpServer(prefixes);
             server.Start();
 
-            Console.WriteLine("Press enter to KeyServer...");
+            Console.WriteLine("Press enter to stop KeyServer...");
             Console.ReadKey();
             server.Stop();
             Environment.Exit(0);

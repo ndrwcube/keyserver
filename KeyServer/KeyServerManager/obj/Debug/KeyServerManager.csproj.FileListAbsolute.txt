@@ -1,0 +1,8 @@
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\bin\Debug\KeyServerManager.exe
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\bin\Debug\KeyServerManager.pdb
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.csproj.AssemblyReference.cache
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.Properties.Resources.resources
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.csproj.GenerateResource.cache
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.csproj.CoreCompileInputs.cache
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.exe
+C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServerManager\obj\Debug\KeyServerManager.pdb
