@@ -45,7 +45,7 @@ namespace KeyServer
   </tr>
   <tr>
     <td class=""tg-0pky"">Timezone</td>
-    <td class=""tg-0pky"">"+TimeZoneInfo.Local.StandardName+@"</td>
+    <td class=""tg-0pky"">"+TimeZoneInfo.Local.StandardName+ @"</td>
   </tr>
   <tr>
     <td class=""tg-0pky"">KeyServer version</td>
@@ -64,7 +64,7 @@ namespace KeyServer
     <td class=""tg-0lax""></td>
   </tr>
 </tbody>
-</table><br><p>Made with ❤</p><p>© 2024 Andrew (github.com/@ndrwcube)</p></body>", "KeyServer Statistics");
+</table><br><p>Made with &#10084;&#65039;</p><p>© 2024 Andrew (github.com/@ndrwcube)</p></body>", "KeyServer Statistics");
         }
     }
 }
