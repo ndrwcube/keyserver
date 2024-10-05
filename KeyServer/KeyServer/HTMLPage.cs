@@ -52,16 +52,16 @@ namespace KeyServer
     <td class=""tg-0pky""></td>
   </tr>
   <tr>
-    <td class=""tg-0lax""></td>
-    <td class=""tg-0lax""></td>
+    <td class=""tg-0pky""></td>
+    <td class=""tg-0pky""></td>
   </tr>
   <tr>
-    <td class=""tg-0lax"">Server admin contact</td>
-    <td class=""tg-0lax""></td>
+    <td class=""tg-0pky"">Server admin contact</td>
+    <td class=""tg-0pky""></td>
   </tr>
   <tr>
-    <td class=""tg-0lax"">Description</td>
-    <td class=""tg-0lax""></td>
+    <td class=""tg-0pky"">Description</td>
+    <td class=""tg-0pky""></td>
   </tr>
 </tbody>
 </table><br><p>Made with &#10084;&#65039;</p><p>© 2024 Andrew (github.com/@ndrwcube)</p></body>", "KeyServer Statistics");
