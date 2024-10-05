@@ -8,9 +8,63 @@ namespace KeyServer
 {
     class HTMLPage
     {
+        static string GenerateFromTemplate(string body, string title)
+        {
+            return @"<!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset=""UTF-8"">
+                    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+                    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+                    <title>"+title+@"</title>
+                </head>
+                "+body+@"
+            </html>";
+        }
+
         public static string StatsPage()
         {
-            return @"<!DOCTYPE HTML><html><body><h1>KeyServer</h1></body></html>";
+            return GenerateFromTemplate(@"<body style=""font-family: sans-serif;""><h1 style=""font-weight: normal;"">KeyServer Statistics</h1><style type=""text/css"">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class=""tg""><thead>
+  <tr>
+    <th class=""tg-0lax"">Item</th>
+    <th class=""tg-0lax"">Description</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class=""tg-0pky"">Server start time</td>
+    <td class=""tg-0pky"">"+Program.starttime+@"</td>
+  </tr>
+  <tr>
+    <td class=""tg-0pky"">Timezone</td>
+    <td class=""tg-0pky"">"+TimeZoneInfo.Local.StandardName+@"</td>
+  </tr>
+  <tr>
+    <td class=""tg-0pky"">KeyServer version</td>
+    <td class=""tg-0pky""></td>
+  </tr>
+  <tr>
+    <td class=""tg-0lax""></td>
+    <td class=""tg-0lax""></td>
+  </tr>
+  <tr>
+    <td class=""tg-0lax"">Server admin contact</td>
+    <td class=""tg-0lax""></td>
+  </tr>
+  <tr>
+    <td class=""tg-0lax"">Description</td>
+    <td class=""tg-0lax""></td>
+  </tr>
+</tbody>
+</table><br><p>Made with ❤</p><p>© 2024 Andrew (github.com/@ndrwcube)</p></body>", "KeyServer Statistics");
         }
     }
 }
