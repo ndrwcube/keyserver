@@ -46,17 +46,28 @@ namespace KeyServer
             Console.WriteLine($"Received {request.HttpMethod} request for {path}");
 
             // Routing based on the endpoint (path)
-            if (path == "/api/hello" && request.HttpMethod == "GET")
+            if (path.StartsWith("/api"))
             {
-                responseText = "Hi! KeyServer is online!";
-            } else if (path == "/stats")
+                if (path == "/api/hello" && request.HttpMethod == "GET")
+                {
+                    responseText = "Hi! KeyServer is online!";
+                }
+                else
+                {
+                    responseText = "Endpoint not found";
+                    context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                }
+            } else
             {
-                responseText = HTMLPage.StatsPage();
-            }
-            else
-            {
-                responseText = "Endpoint not found";
-                context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                if (path == "/stats")
+                {
+                    responseText = HTMLPage.StatsPage();
+                }
+                else
+                {
+                    responseText = HTMLPage.PageNotFound;
+                    context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                }
             }
 
             // Send response

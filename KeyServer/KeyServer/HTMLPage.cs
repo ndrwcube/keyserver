@@ -10,16 +10,17 @@ namespace KeyServer
     {
         static string GenerateFromTemplate(string body, string title)
         {
-            return @"<!DOCTYPE html>
-            <html>
-                <head>
-                    <meta charset=""UTF-8"">
-                    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-                    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
-                    <title>"+title+@"</title>
-                </head>
-                "+body+@"
-            </html>";
+            return 
+@"<!DOCTYPE html>
+<html lang=""en"">
+    <head>
+        <meta charset=""UTF-8"">
+        <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+        <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+        <title>"+title+@"</title>
+    </head>
+    "+body+@"
+</html>";
         }
 
         public static string StatsPage()
@@ -66,5 +67,54 @@ namespace KeyServer
 </tbody>
 </table><br><p>Made with &#10084;&#65039;</p><p>© 2024 Andrew (github.com/@ndrwcube)</p></body>", "KeyServer Statistics");
         }
+
+        public static string PageNotFound = 
+@"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <title>KeyServer | 404</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-weight: normal;
+            font-size: 4em;
+            margin: 0;
+            color: #e74c3c;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>404</h1>
+        <p>Oops! The page you're looking for doesn't exist.</p>
+        <p><a href=""/"">Go back to the KeyServer Homepage</a></p>
+    </div>
+</body>
+</html>";
     }
 }
