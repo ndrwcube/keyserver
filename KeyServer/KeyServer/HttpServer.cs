@@ -49,7 +49,7 @@ namespace KeyServer
             if (path == "/api/hello" && request.HttpMethod == "GET")
             {
                 responseText = "Hi! KeyServer is online!";
-            } else if (path == "/api/public/stats")
+            } else if (path == "/stats")
             {
                 responseText = HTMLPage.StatsPage();
             }
