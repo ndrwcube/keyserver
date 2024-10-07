@@ -119,7 +119,8 @@ namespace KeyServer
 
         public static string publicroot = GenerateFromTemplate(
 @"<body style=""font-family: sans-serif;"">
-    <h1 style=""font-weight: normal;"">KeyServer</h1>
+    <div><h1 style=""font-weight: normal; display: inline; vertical-align: bottom;"">KeyServer</h1><p style=""display: inline; vertical-align: bottom;"">Profiles | Account Center</p></div>
+    <div style=""height: 1px; background-color: black;""></div>
     <p>KeyServer is up and running!</p>
     <p>Made with &#10084;&#65039;</p><p>© 2024 Andrew (github.com/@ndrwcube)</p>
 </body>",
