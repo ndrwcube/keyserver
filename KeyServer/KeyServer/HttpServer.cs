@@ -59,7 +59,11 @@ namespace KeyServer
                 }
             } else
             {
-                if (path == "/stats")
+                if (path == "/")
+                {
+                    responseText = HTMLPage.publicroot;
+                }
+                else if (path == "/stats")
                 {
                     responseText = HTMLPage.StatsPage();
                 }

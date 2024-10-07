@@ -5,3 +5,10 @@ C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServ
 C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.csproj.CoreCompileInputs.cache
 C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.exe
 C:\Users\skalf\Desktop\Aedan\Git\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.pdb
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.exe.config
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.exe
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\bin\Debug\KeyServer.pdb
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.csproj.AssemblyReference.cache
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.csproj.CoreCompileInputs.cache
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.exe
+C:\Users\ndrwcube\Documents\Git Repositories\keyserver\KeyServer\KeyServer\obj\Debug\KeyServer.pdb
